@@ -10,7 +10,6 @@ public class AppMercado {
 		
 		Estoque estoque = new Estoque();
 		
-		
 		estoque.CadastrarProduto(produtoTeste, 10);
 		estoque.CadastrarProduto(produtoTeste, 100);
 		estoque.CadastrarProduto(produtoTeste, 100);
@@ -20,8 +19,7 @@ public class AppMercado {
 		estoque.CadastrarProduto(produtoTeste3, 0);
 		
 		estoque.produtosCadastrados();
-		
-
+	
 	}
 
 }
